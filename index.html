@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Robot Computer Repair</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js"></script>
+</head>
+<body class="bg-mr-black text-gray-300 font-mono overflow-x-hidden">
+
+    <nav class="fixed w-full z-40 bg-black/90 border-b border-gray-800 backdrop-blur-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <div class="border-2 border-white px-2 py-1 uppercase font-bold text-xl tracking-widest text-white hover:border-mr-red hover:text-mr-red transition-colors duration-300 cursor-pointer">
+                        Mr. Robot
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8 uppercase text-sm tracking-wider">
+                        <a href="#services" class="hover:text-mr-red px-3 py-2 rounded-md transition-colors">Услуги</a>
+                        <a href="#team" class="hover:text-mr-red px-3 py-2 rounded-md transition-colors">Команда</a>
+                        <a href="#promo" class="hover:text-mr-red px-3 py-2 rounded-md transition-colors">Акции</a>
+                        <a href="#reviews" class="hover:text-mr-red px-3 py-2 rounded-md transition-colors">Отзывы</a>
+                        <a href="#contact" class="bg-mr-red text-white hover:bg-red-700 px-4 py-2 rounded-none transition-colors">Вызвать мастера</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="relative bg-black h-screen flex items-center justify-center overflow-hidden border-b border-gray-800">
+        <div class="absolute inset-0 opacity-20 pointer-events-none flex flex-col justify-center items-center">
+             <pre class="text-xs text-green-800 leading-3">
+01001000 01100101 01101100 01101100 01101111 
+00100000 01100110 01110010 01101001 01100101 
+01101110 01100100 00101110 00100000 01001001 
+00100000 01100001 01101101 00100000 01101000 
+01100101 01110010 01100101 00101110 
+            </pre>
+        </div>
+
+        <div class="relative z-10 text-center px-4">
+            <h2 class="text-lg md:text-xl text-mr-red tracking-[0.3em] uppercase mb-4">Компьютерный Сервис</h2>
+            <h1 class="text-6xl md:text-8xl font-bold text-white mb-6 uppercase tracking-tighter glitch-hover cursor-default">
+                MR. ROBOT
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-400 font-retro max-w-2xl mx-auto mb-10">
+                <span class="text-term-green">></span> Мы чиним больше, чем просто компьютеры. Мы восстанавливаем контроль.<span class="cursor-blink">_</span>
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#services" class="border border-white text-white px-8 py-3 uppercase hover:bg-white hover:text-black transition-all duration-300">
+                    Услуги
+                </a>
+                <a href="#contact" class="bg-mr-red border border-mr-red text-white px-8 py-3 uppercase hover:bg-transparent hover:text-mr-red transition-all duration-300">
+                    Связаться
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-20 bg-mr-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white uppercase tracking-wider mb-2">Наши Преимущества</h2>
+                <div class="h-1 w-20 bg-mr-red mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-mr-gray p-8 border border-gray-700 hover:border-mr-red transition-colors duration-300 group">
+                    <div class="text-4xl text-mr-red mb-4 group-hover:scale-110 transform transition-transform">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 uppercase">Анонимность</h3>
+                    <p class="text-gray-400 text-sm">Мы не задаем лишних вопросов. Ваши данные остаются вашими. Полная конфиденциальность гарантирована.</p>
+                </div>
+
+                <div class="bg-mr-gray p-8 border border-gray-700 hover:border-mr-red transition-colors duration-300 group">
+                    <div class="text-4xl text-mr-red mb-4 group-hover:scale-110 transform transition-transform">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 uppercase">Экспертность</h3>
+                    <p class="text-gray-400 text-sm">От замены термопасты до восстановления удаленных данных на жестком диске. Эдвард знает всё.</p>
+                </div>
+
+                <div class="bg-mr-gray p-8 border border-gray-700 hover:border-mr-red transition-colors duration-300 group">
+                    <div class="text-4xl text-mr-red mb-4 group-hover:scale-110 transform transition-transform">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 uppercase">Честная цена</h3>
+                    <p class="text-gray-400 text-sm">Без корпоративных наценок. Мы работаем для людей, а не для E Corp.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="promo" class="bg-white text-black py-12 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10 font-mono text-xs overflow-hidden break-words pointer-events-none">
+            ERROR 404 DISCOUNT FOUND ERROR 404 DISCOUNT FOUND ERROR 404 DISCOUNT FOUND
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center justify-between">
+            <div class="mb-6 md:mb-0">
+                <h3 class="text-4xl font-bold uppercase tracking-tighter">Спецпредложение</h3>
+                <p class="text-lg font-bold">Скидка 20% на чистку от "вирусов" и шпионского ПО</p>
+                <p class="text-sm mt-2 font-mono">CODE: FSOCIETY_CLEAN</p>
+            </div>
+            <a href="#contact" class="bg-black text-white px-8 py-4 text-xl uppercase font-bold hover:bg-mr-red transition-colors">
+                Получить скидку
+            </a>
+        </div>
+    </div>
+
+    <div id="services" class="py-20 bg-neutral-900 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white uppercase tracking-wider mb-2">Перечень услуг</h2>
+                <div class="h-1 w-20 bg-mr-red mx-auto"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-700 border border-gray-700">
+                <div class="bg-mr-black p-8 hover:bg-gray-900 transition-colors">
+                    <h4 class="text-lg font-bold text-white mb-2"><span class="text-mr-red">01.</span> Диагностика</h4>
+                    <p class="text-gray-400 text-sm">Полное сканирование системы. Выявление аппаратных и программных сбоев.</p>
+                    <p class="mt-4 text-white font-mono">Бесплатно*</p>
+                </div>
+
+                <div class="bg-mr-black p-8 hover:bg-gray-900 transition-colors">
+                    <h4 class="text-lg font-bold text-white mb-2"><span class="text-mr-red">02.</span> Удаление вирусов</h4>
+                    <p class="text-gray-400 text-sm">Трояны, руткиты, майнеры. Мы очистим всё до последнего байта.</p>
+                    <p class="mt-4 text-white font-mono">от 1500 ₽</p>
+                </div>
+
+                <div class="bg-mr-black p-8 hover:bg-gray-900 transition-colors">
+                    <h4 class="text-lg font-bold text-white mb-2"><span class="text-mr-red">03.</span> Восстановление данных</h4>
+                    <p class="text-gray-400 text-sm">Случайно удалили? Диск поврежден? Мы вернем ваши воспоминания.</p>
+                    <p class="mt-4 text-white font-mono">от 3000 ₽</p>
+                </div>
+
+                <div class="bg-mr-black p-8 hover:bg-gray-900 transition-colors">
+                    <h4 class="text-lg font-bold text-white mb-2"><span class="text-mr-red">04.</span> Сборка ПК</h4>
+                    <p class="text-gray-400 text-sm">Подбор комплектующих под любые задачи. Гейминг или взлом серверов.</p>
+                    <p class="mt-4 text-white font-mono">от 2500 ₽</p>
+                </div>
+
+                <div class="bg-mr-black p-8 hover:bg-gray-900 transition-colors">
+                    <h4 class="text-lg font-bold text-white mb-2"><span class="text-mr-red">05.</span> Настройка сетей</h4>
+                    <p class="text-gray-400 text-sm">Настройка роутеров, защита Wi-Fi, создание локальных сетей.</p>
+                    <p class="mt-4 text-white font-mono">от 1000 ₽</p>
+                </div>
+
+                <div class="bg-mr-black p-8 hover:bg-gray-900 transition-colors">
+                    <h4 class="text-lg font-bold text-white mb-2"><span class="text-mr-red">06.</span> Моддинг</h4>
+                    <p class="text-gray-400 text-sm">Кастомное охлаждение, подсветка, апгрейд старых систем.</p>
+                    <p class="mt-4 text-white font-mono">Договорная</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="team" class="py-20 bg-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-white uppercase tracking-wider mb-12 text-center">Команда</h2>
+            
+            <div class="flex flex-col md:flex-row justify-center gap-10">
+                <div class="w-full md:w-1/3 bg-mr-gray border-t-4 border-mr-red p-6 relative">
+                    <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-black border border-mr-red p-2 rounded-full">
+                        <i class="fas fa-glasses text-2xl text-white"></i>
+                    </div>
+                    <div class="mt-8 text-center">
+                        <h3 class="text-2xl font-bold text-white">Edward Alderson</h3>
+                        <p class="text-mr-red text-sm uppercase tracking-widest mb-4">Владелец / Гл. Инженер</p>
+                        <p class="text-gray-400 text-sm italic">
+                            "Каждая машина заслуживает второго шанса. Как и люди."
+                        </p>
+                        <div class="mt-4 text-xs font-mono text-gray-500">
+                            Spec: Hardware, Social Engineering
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/3 bg-mr-gray border-t-4 border-gray-600 p-6 relative">
+                     <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-black border border-gray-600 p-2 rounded-full">
+                        <i class="fas fa-user-secret text-2xl text-white"></i>
+                    </div>
+                    <div class="mt-8 text-center">
+                        <h3 class="text-2xl font-bold text-white">Elliot</h3>
+                        <p class="text-gray-500 text-sm uppercase tracking-widest mb-4">Сетевая безопасность</p>
+                        <p class="text-gray-400 text-sm italic">
+                            "Я предпочитаю работать по ночам. Не спрашивайте почему."
+                        </p>
+                         <div class="mt-4 text-xs font-mono text-gray-500">
+                            Spec: Linux, Cybersecurity, Python
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="reviews" class="py-20 bg-mr-black border-y border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-white uppercase tracking-wider mb-12 text-center">Логи клиентов</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-transparent border border-gray-700 p-6 relative">
+                    <div class="absolute top-0 left-0 bg-gray-700 text-xs text-black px-2 py-1 font-bold">LOG #1024</div>
+                    <p class="text-gray-300 mb-4 font-mono mt-4">
+                        "Мой ноутбук был полностью уничтожен после... инцидента с кофе. Эдвард восстановил все файлы. Быстро и без лишних вопросов."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-gray-600 rounded-full mr-3 flex items-center justify-center text-xs">A</div>
+                        <span class="text-mr-red text-sm font-bold">Анжела М.</span>
+                    </div>
+                </div>
+
+                <div class="bg-transparent border border-gray-700 p-6 relative">
+                    <div class="absolute top-0 left-0 bg-gray-700 text-xs text-black px-2 py-1 font-bold">LOG #1025</div>
+                    <p class="text-gray-300 mb-4 font-mono mt-4">
+                        "Лучший сервис в Вашингтон Тауншип. Очень доступные цены для такого качества. Но иногда кажется, что они знают обо мне слишком много."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-gray-600 rounded-full mr-3 flex items-center justify-center text-xs">L</div>
+                        <span class="text-mr-red text-sm font-bold">Ллойд</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="py-20 bg-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                
+                <div>
+                    <h2 class="text-3xl font-bold text-white uppercase tracking-wider mb-8">Расположение</h2>
+                    <div class="bg-mr-gray p-6 border border-gray-700 mb-6">
+                        <p class="text-xl font-bold text-white mb-2">MR. ROBOT REPAIR</p>
+                        <p class="text-gray-400 mb-4"><i class="fas fa-map-marker-alt text-mr-red mr-2"></i> Вашингтон Тауншип, Нью-Джерси, США</p>
+                        <p class="text-gray-400 mb-4"><i class="fas fa-phone text-mr-red mr-2"></i> +1 (555) 0199-333</p>
+                        <p class="text-gray-400"><i class="fas fa-clock text-mr-red mr-2"></i> Пн-Сб: 10:00 - 19:00</p>
+                    </div>
+                    <div class="w-full h-64 bg-gray-900 border border-gray-800 flex items-center justify-center relative overflow-hidden group">
+                        <div class="absolute inset-0 grid grid-cols-12 grid-rows-6 gap-1 opacity-20">
+                            <div class="bg-green-900 col-span-1 row-span-6"></div>
+                            <div class="bg-green-900 col-span-11 row-span-1"></div>
+                        </div>
+                        <span class="text-gray-500 font-mono z-10 group-hover:text-red-500 transition-colors">
+                            <i class="fas fa-satellite-dish text-4xl mb-2 block text-center"></i>
+                            [MAP DATA ENCRYPTED]
+                        </span>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="text-3xl font-bold text-white uppercase tracking-wider mb-8">Инициировать запрос</h2>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-xs uppercase tracking-widest text-gray-500 mb-1">Идентификатор (Имя)</label>
+                            <input type="text" class="w-full bg-black border border-gray-600 text-white p-3 focus:outline-none focus:border-mr-red focus:ring-1 focus:ring-mr-red font-mono" placeholder="Введите имя...">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-xs uppercase tracking-widest text-gray-500 mb-1">Протокол связи (Телефон)</label>
+                            <input type="tel" class="w-full bg-black border border-gray-600 text-white p-3 focus:outline-none focus:border-mr-red focus:ring-1 focus:ring-mr-red font-mono" placeholder="+7 (___) ___-__-__">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs uppercase tracking-widest text-gray-500 mb-1">Тип неисправности</label>
+                            <select class="w-full bg-black border border-gray-600 text-white p-3 focus:outline-none focus:border-mr-red font-mono">
+                                <option>Диагностика оборудования</option>
+                                <option>Консультация (выезд)</option>
+                                <option>Программный сбой</option>
+                                <option>Восстановление данных</option>
+                                <option>Другое (Секретно)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs uppercase tracking-widest text-gray-500 mb-1">Описание ошибки</label>
+                            <textarea rows="4" class="w-full bg-black border border-gray-600 text-white p-3 focus:outline-none focus:border-mr-red focus:ring-1 focus:ring-mr-red font-mono" placeholder="Опишите проблему..."></textarea>
+                        </div>
+
+                        <button type="button" class="w-full bg-mr-red text-white font-bold uppercase py-4 hover:bg-red-700 transition-all duration-200 border border-transparent hover:border-white">
+                            <i class="fas fa-terminal mr-2"></i> Отправить запрос
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-mr-black border-t border-gray-800 py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-gray-600 font-mono text-sm">
+                &copy; 1994-2023 Mr. Robot Computer Repair. Все права защищены.
+            </p>
+            <p class="text-xs text-gray-800 mt-2 hover:text-red-900 cursor-default transition-colors">
+                Control is an illusion.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
